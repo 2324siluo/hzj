@@ -1,4 +1,3 @@
-<!--hzj项目管理-->
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8,7 +7,7 @@
     <groupId>com.hzj</groupId>
     <artifactId>hzj</artifactId>
     <version>3.6.3</version>
-
+<!--hzj微服务系统-->
     <name>hzj</name>
     <url>http://www.hzj.vip</url>
     <description>hzj微服务系统</description>
