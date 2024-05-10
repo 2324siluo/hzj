@@ -1,0 +1,3 @@
+com.hzj.system.api.factory.RemoteUserFallbackFactory
+com.hzj.system.api.factory.RemoteLogFallbackFactory
+com.hzj.system.api.factory.RemoteFileFallbackFactory

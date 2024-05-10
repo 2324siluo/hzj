@@ -1,0 +1,36 @@
+10:31:08.107 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:31:08.148 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:31:08.430 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:31:08.431 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:31:17.769 [main] INFO  c.h.s.HzjSystemApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:31:19.584 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9201"]
+10:31:19.585 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:31:19.586 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:31:19.745 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:31:20.400 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,217] - dynamic-datasource start closing ....
+10:31:20.401 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,221] - dynamic-datasource all closed success,bye
+10:31:20.402 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+10:45:32.425 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:45:32.460 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:45:32.696 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:45:32.697 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:45:41.911 [main] INFO  c.h.s.HzjSystemApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:45:43.598 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9201"]
+10:45:43.600 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:45:43.600 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:45:43.734 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:45:44.319 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,217] - dynamic-datasource start closing ....
+10:45:44.320 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,221] - dynamic-datasource all closed success,bye
+10:45:44.321 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:06:35.956 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+11:06:35.990 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:06:36.225 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:06:36.226 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:06:38.340 [main] INFO  c.h.s.HzjSystemApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+11:06:40.082 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9201"]
+11:06:40.084 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:06:40.084 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+11:06:40.235 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:06:40.904 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,217] - dynamic-datasource start closing ....
+11:06:40.904 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,221] - dynamic-datasource all closed success,bye
+11:06:40.905 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]

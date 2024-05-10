@@ -1,0 +1,19 @@
+10:22:27.085 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:22:27.150 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:22:27.617 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:22:27.617 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:22:31.471 [main] INFO  c.h.f.HzjFileApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:22:33.024 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+10:22:33.024 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:22:33.024 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:22:33.209 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:22:34.243 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:22:38.026 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+10:22:38.061 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:22:38.061 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:22:38.179 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-file 192.168.116.1:9300 register finished
+10:22:39.530 [main] INFO  c.h.f.HzjFileApplication - [logStarted,61] - Started HzjFileApplication in 14.306 seconds (JVM running for 15.722)
+10:22:39.546 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-file.yml, group=DEFAULT_GROUP
+10:22:39.546 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-file-dev.yml, group=DEFAULT_GROUP
+10:22:39.546 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-file, group=DEFAULT_GROUP
+10:22:39.861 [RMI TCP Connection(3)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

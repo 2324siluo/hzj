@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hzj-api/hzj-api-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-api/hzj-api-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-datascope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-datascope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-common/hzj-common-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-modules/hzj-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-visual/hzj-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hzj-visual/hzj-monitor/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

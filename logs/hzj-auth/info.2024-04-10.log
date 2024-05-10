@@ -1,0 +1,87 @@
+10:24:58.433 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:24:58.486 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:24:58.733 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:24:58.733 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:25:07.953 [main] INFO  c.h.a.HzjAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:25:09.235 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9200"]
+10:25:09.235 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:25:09.235 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:25:09.351 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:25:10.037 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:25:12.933 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9200"]
+10:25:12.949 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:25:12.949 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:25:19.787 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-9200"]
+10:25:19.787 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+10:25:19.787 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-9200"]
+10:25:19.787 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-9200"]
+10:30:51.554 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:30:51.602 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:30:51.858 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:30:51.858 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:31:00.992 [main] INFO  c.h.a.HzjAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:31:02.241 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9200"]
+10:31:02.241 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:31:02.241 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:31:02.361 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:31:03.052 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:31:05.943 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9200"]
+10:31:05.959 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:31:05.959 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:31:12.785 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-9200"]
+10:31:12.785 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+10:31:12.785 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-9200"]
+10:31:12.785 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-9200"]
+10:40:13.648 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:40:13.728 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:40:14.083 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:40:14.083 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:40:23.265 [main] INFO  c.h.a.HzjAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:40:24.383 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9200"]
+10:40:24.383 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:40:24.383 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:40:24.514 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:40:25.216 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:40:28.068 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9200"]
+10:40:28.084 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:40:28.084 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:40:34.934 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-9200"]
+10:40:34.934 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+10:40:34.934 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-9200"]
+10:40:34.934 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-9200"]
+10:45:24.079 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:45:24.097 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:45:24.341 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:45:24.341 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:45:33.526 [main] INFO  c.h.a.HzjAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:45:34.703 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9200"]
+10:45:34.703 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:45:34.703 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:45:34.820 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:45:35.472 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:45:38.419 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9200"]
+10:45:38.435 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:45:38.435 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:45:45.281 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-9200"]
+10:45:45.281 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+10:45:45.281 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-9200"]
+10:45:45.296 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-9200"]
+10:53:54.577 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:53:54.609 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:53:54.843 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:53:54.844 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:53:56.839 [main] INFO  c.h.a.HzjAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:53:57.919 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9200"]
+10:53:57.920 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:53:57.920 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:53:58.031 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:53:58.694 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:54:01.526 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9200"]
+10:54:01.543 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:54:01.543 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:54:01.680 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-auth 192.168.116.1:9200 register finished
+10:54:02.800 [main] INFO  c.h.a.HzjAuthApplication - [logStarted,61] - Started HzjAuthApplication in 9.628 seconds (JVM running for 10.298)
+10:54:02.810 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-auth.yml, group=DEFAULT_GROUP
+10:54:02.811 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-auth-dev.yml, group=DEFAULT_GROUP
+10:54:02.811 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-auth, group=DEFAULT_GROUP
+10:54:03.035 [RMI TCP Connection(3)-192.168.36.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

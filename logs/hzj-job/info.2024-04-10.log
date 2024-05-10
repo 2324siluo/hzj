@@ -1,0 +1,20 @@
+11:12:56.544 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+11:12:56.578 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:12:56.809 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:12:56.809 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:12:58.780 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+11:13:00.273 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+11:13:00.274 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:13:00.274 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+11:13:00.396 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:13:00.486 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:27:43.473 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+11:27:43.508 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:27:43.754 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:27:43.754 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:27:44.780 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+11:27:46.259 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+11:27:46.261 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:27:46.261 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+11:27:46.382 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:27:46.469 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]

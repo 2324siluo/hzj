@@ -1,0 +1,22 @@
+08:35:36.655 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+08:35:36.706 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+08:35:36.937 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+08:35:36.937 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+08:35:40.097 [main] INFO  c.h.s.HzjSystemApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+08:35:43.311 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9201"]
+08:35:43.311 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+08:35:43.311 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+08:35:43.476 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+08:35:44.185 [main] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-1,master} inited
+08:35:44.185 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [addDataSource,160] - dynamic-datasource - add a datasource named [master] success
+08:35:44.185 [main] INFO  c.b.d.d.DynamicRoutingDataSource - [afterPropertiesSet,243] - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+08:35:48.192 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+08:35:53.826 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9201"]
+08:35:53.866 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+08:35:53.866 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+08:35:54.188 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-system 192.168.116.1:9201 register finished
+08:35:55.022 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:35:56.555 [main] INFO  c.h.s.HzjSystemApplication - [logStarted,61] - Started HzjSystemApplication in 21.389 seconds (JVM running for 22.258)
+08:35:56.575 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-system.yml, group=DEFAULT_GROUP
+08:35:56.575 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-system, group=DEFAULT_GROUP
+08:35:56.575 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-system-dev.yml, group=DEFAULT_GROUP

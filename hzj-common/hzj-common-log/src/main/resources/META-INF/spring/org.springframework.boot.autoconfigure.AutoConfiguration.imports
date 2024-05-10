@@ -1,0 +1,2 @@
+com.hzj.common.log.service.AsyncLogService
+com.hzj.common.log.aspect.LogAspect

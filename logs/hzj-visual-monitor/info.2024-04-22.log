@@ -1,0 +1,66 @@
+19:50:02.264 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+19:50:02.529 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+19:50:02.529 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+19:50:04.533 [main] INFO  c.h.m.m.HzjMonitorApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+19:50:05.511 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9100"]
+19:50:05.511 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:50:05.511 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+19:50:05.621 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:50:06.037 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+19:50:10.127 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9100"]
+19:50:11.233 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+19:50:11.233 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+19:50:11.365 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-monitor 192.168.116.1:9100 register finished
+19:50:11.733 [http-nio-9100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:50:12.785 [main] INFO  c.h.m.m.HzjMonitorApplication - [logStarted,61] - Started HzjMonitorApplication in 11.987 seconds (JVM running for 12.789)
+19:50:12.801 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-monitor-dev.yml, group=DEFAULT_GROUP
+19:50:12.801 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-monitor, group=DEFAULT_GROUP
+19:50:12.801 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-monitor.yml, group=DEFAULT_GROUP
+20:30:50.175 [parallel-1] INFO  d.c.b.a.s.s.StatusUpdater - [logError,138] - Couldn't retrieve status for Instance(id=14c826dfb83f, version=2, registration=Registration(name=hzj-system, managementUrl=http://192.168.116.1:9201/actuator, healthUrl=http://192.168.116.1:9201/actuator/health, serviceUrl=http://192.168.116.1:9201, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2024-04-22T11:50:11.829Z, info=Info(values={}), endpoints=Endpoints(endpoints={sentinel=Endpoint(id=sentinel, url=http://192.168.116.1:9201/actuator/sentinel), caches=Endpoint(id=caches, url=http://192.168.116.1:9201/actuator/caches), loggers=Endpoint(id=loggers, url=http://192.168.116.1:9201/actuator/loggers), nacosconfig=Endpoint(id=nacosconfig, url=http://192.168.116.1:9201/actuator/nacosconfig), health=Endpoint(id=health, url=http://192.168.116.1:9201/actuator/health), refresh=Endpoint(id=refresh, url=http://192.168.116.1:9201/actuator/refresh), env=Endpoint(id=env, url=http://192.168.116.1:9201/actuator/env), nacosdiscovery=Endpoint(id=nacosdiscovery, url=http://192.168.116.1:9201/actuator/nacosdiscovery), serviceregistry=Endpoint(id=serviceregistry, url=http://192.168.116.1:9201/actuator/serviceregistry), heapdump=Endpoint(id=heapdump, url=http://192.168.116.1:9201/actuator/heapdump), features=Endpoint(id=features, url=http://192.168.116.1:9201/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://192.168.116.1:9201/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://192.168.116.1:9201/actuator/mappings), beans=Endpoint(id=beans, url=http://192.168.116.1:9201/actuator/beans), configprops=Endpoint(id=configprops, url=http://192.168.116.1:9201/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://192.168.116.1:9201/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://192.168.116.1:9201/actuator/metrics), conditions=Endpoint(id=conditions, url=http://192.168.116.1:9201/actuator/conditions), info=Endpoint(id=info, url=http://192.168.116.1:9201/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 9000ms in 'log' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+	at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+	at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:30:50.183 [parallel-7] INFO  d.c.b.a.s.s.StatusUpdater - [logError,138] - Couldn't retrieve status for Instance(id=a85d1dc56898, version=2, registration=Registration(name=hzj-auth, managementUrl=http://192.168.116.1:9200/actuator, healthUrl=http://192.168.116.1:9200/actuator/health, serviceUrl=http://192.168.116.1:9200, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2024-04-22T11:50:11.829Z, info=Info(values={}), endpoints=Endpoints(endpoints={sentinel=Endpoint(id=sentinel, url=http://192.168.116.1:9200/actuator/sentinel), caches=Endpoint(id=caches, url=http://192.168.116.1:9200/actuator/caches), loggers=Endpoint(id=loggers, url=http://192.168.116.1:9200/actuator/loggers), nacosconfig=Endpoint(id=nacosconfig, url=http://192.168.116.1:9200/actuator/nacosconfig), health=Endpoint(id=health, url=http://192.168.116.1:9200/actuator/health), refresh=Endpoint(id=refresh, url=http://192.168.116.1:9200/actuator/refresh), env=Endpoint(id=env, url=http://192.168.116.1:9200/actuator/env), nacosdiscovery=Endpoint(id=nacosdiscovery, url=http://192.168.116.1:9200/actuator/nacosdiscovery), serviceregistry=Endpoint(id=serviceregistry, url=http://192.168.116.1:9200/actuator/serviceregistry), heapdump=Endpoint(id=heapdump, url=http://192.168.116.1:9200/actuator/heapdump), features=Endpoint(id=features, url=http://192.168.116.1:9200/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://192.168.116.1:9200/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://192.168.116.1:9200/actuator/mappings), beans=Endpoint(id=beans, url=http://192.168.116.1:9200/actuator/beans), configprops=Endpoint(id=configprops, url=http://192.168.116.1:9200/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://192.168.116.1:9200/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://192.168.116.1:9200/actuator/metrics), conditions=Endpoint(id=conditions, url=http://192.168.116.1:9200/actuator/conditions), info=Endpoint(id=info, url=http://192.168.116.1:9200/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 9000ms in 'log' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+	at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+	at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20:30:50.183 [parallel-3] INFO  d.c.b.a.s.s.StatusUpdater - [logError,138] - Couldn't retrieve status for Instance(id=0c482d67a2c5, version=2, registration=Registration(name=hzj-gateway, managementUrl=http://192.168.116.1:8080/actuator, healthUrl=http://192.168.116.1:8080/actuator/health, serviceUrl=http://192.168.116.1:8080, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2024-04-22T11:50:13.799Z, info=Info(values={}), endpoints=Endpoints(endpoints={sentinel=Endpoint(id=sentinel, url=http://192.168.116.1:8080/actuator/sentinel), caches=Endpoint(id=caches, url=http://192.168.116.1:8080/actuator/caches), loggers=Endpoint(id=loggers, url=http://192.168.116.1:8080/actuator/loggers), nacosconfig=Endpoint(id=nacosconfig, url=http://192.168.116.1:8080/actuator/nacosconfig), health=Endpoint(id=health, url=http://192.168.116.1:8080/actuator/health), refresh=Endpoint(id=refresh, url=http://192.168.116.1:8080/actuator/refresh), env=Endpoint(id=env, url=http://192.168.116.1:8080/actuator/env), nacosdiscovery=Endpoint(id=nacosdiscovery, url=http://192.168.116.1:8080/actuator/nacosdiscovery), serviceregistry=Endpoint(id=serviceregistry, url=http://192.168.116.1:8080/actuator/serviceregistry), heapdump=Endpoint(id=heapdump, url=http://192.168.116.1:8080/actuator/heapdump), features=Endpoint(id=features, url=http://192.168.116.1:8080/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://192.168.116.1:8080/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://192.168.116.1:8080/actuator/mappings), beans=Endpoint(id=beans, url=http://192.168.116.1:8080/actuator/beans), configprops=Endpoint(id=configprops, url=http://192.168.116.1:8080/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://192.168.116.1:8080/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://192.168.116.1:8080/actuator/metrics), conditions=Endpoint(id=conditions, url=http://192.168.116.1:8080/actuator/conditions), gateway=Endpoint(id=gateway, url=http://192.168.116.1:8080/actuator/gateway), info=Endpoint(id=info, url=http://192.168.116.1:8080/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 9000ms in 'log' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280)
+	at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419)
+	at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

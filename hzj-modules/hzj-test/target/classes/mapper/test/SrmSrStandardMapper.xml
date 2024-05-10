@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hzj.test.mapper.SrmSrStandardMapper">
+    
+    <resultMap type="com.hzj.test.domain.SrmSrStandard" id="SrmSrStandardResult">
+        <result property="sssId"    column="sss_id"    />
+        <result property="sssName"    column="sss_name"    />
+        <result property="sssScore"    column="sss_score"    />
+        <result property="sssOther"    column="sss_other"    />
+    </resultMap>
+
+    <sql id="selectSrmSrStandardVo">
+        select sss_id, sss_name, sss_score, sss_other from srm_sr_standard
+    </sql>
+
+    <select id="selectSrmSrStandardList" parameterType="com.hzj.test.domain.SrmSrStandard" resultMap="SrmSrStandardResult">
+        <include refid="selectSrmSrStandardVo"/>
+        <where>  
+            <if test="sssName != null  and sssName != ''"> and sss_name like concat('%', #{sssName}, '%')</if>
+            <if test="sssScore != null "> and sss_score = #{sssScore}</if>
+            <if test="sssOther != null  and sssOther != ''"> and sss_other = #{sssOther}</if>
+        </where>
+    </select>
+    
+    <select id="selectSrmSrStandardBySssId" parameterType="Long" resultMap="SrmSrStandardResult">
+        <include refid="selectSrmSrStandardVo"/>
+        where sss_id = #{sssId}
+    </select>
+        
+    <insert id="insertSrmSrStandard" parameterType="com.hzj.test.domain.SrmSrStandard" useGeneratedKeys="true" keyProperty="sssId">
+        insert into srm_sr_standard
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="sssName != null">sss_name,</if>
+            <if test="sssScore != null">sss_score,</if>
+            <if test="sssOther != null">sss_other,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="sssName != null">#{sssName},</if>
+            <if test="sssScore != null">#{sssScore},</if>
+            <if test="sssOther != null">#{sssOther},</if>
+         </trim>
+    </insert>
+
+    <update id="updateSrmSrStandard" parameterType="com.hzj.test.domain.SrmSrStandard">
+        update srm_sr_standard
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="sssName != null">sss_name = #{sssName},</if>
+            <if test="sssScore != null">sss_score = #{sssScore},</if>
+            <if test="sssOther != null">sss_other = #{sssOther},</if>
+        </trim>
+        where sss_id = #{sssId}
+    </update>
+
+    <delete id="deleteSrmSrStandardBySssId" parameterType="Long">
+        delete from srm_sr_standard where sss_id = #{sssId}
+    </delete>
+
+    <delete id="deleteSrmSrStandardBySssIds" parameterType="String">
+        delete from srm_sr_standard where sss_id in 
+        <foreach item="sssId" collection="array" open="(" separator="," close=")">
+            #{sssId}
+        </foreach>
+    </delete>
+</mapper>

@@ -1,0 +1,222 @@
+10:25:50.206 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:25:50.246 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:25:50.597 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:25:50.597 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:25:52.665 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:25:54.540 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+10:25:54.540 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:25:54.556 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:25:54.709 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:25:54.993 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+10:25:54.993 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:25:54.993 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+10:25:54.993 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+10:25:54.993 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:25:54.993 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:25:54.993 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+10:25:54.993 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@300bb303
+10:25:55.209 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:25:55.705 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:25:56.159 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:26:00.437 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9203"]
+10:26:00.468 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:26:00.468 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:26:00.587 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-job 192.168.116.1:9203 register finished
+10:26:01.840 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:26:01.855 [main] INFO  c.h.j.HzjJobApplication - [logStarted,61] - Started HzjJobApplication in 13.379 seconds (JVM running for 14.798)
+10:26:01.873 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job.yml, group=DEFAULT_GROUP
+10:26:01.873 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job, group=DEFAULT_GROUP
+10:26:01.873 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job-dev.yml, group=DEFAULT_GROUP
+10:26:02.088 [RMI TCP Connection(8)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:08:38.043 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+11:08:38.075 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:08:38.309 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:08:38.310 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:08:40.305 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+11:08:41.772 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+11:08:41.774 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:08:41.774 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+11:08:41.896 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:08:42.122 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:08:42.129 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:08:42.129 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:08:42.129 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+11:08:42.130 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:08:42.130 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:08:42.130 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:08:42.130 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7e0986c9
+11:08:42.304 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:08:42.672 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:08:43.049 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+11:08:46.649 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9203"]
+11:08:46.668 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:08:46.668 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:08:46.793 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-job 192.168.116.1:9203 register finished
+11:08:48.065 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:08:48.077 [main] INFO  c.h.j.HzjJobApplication - [logStarted,61] - Started HzjJobApplication in 11.445 seconds (JVM running for 12.237)
+11:08:48.089 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job.yml, group=DEFAULT_GROUP
+11:08:48.089 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job, group=DEFAULT_GROUP
+11:08:48.091 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job-dev.yml, group=DEFAULT_GROUP
+11:08:48.512 [RMI TCP Connection(1)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:36:03.854 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+11:36:03.930 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:36:04.471 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:36:04.472 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:36:07.331 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+11:36:09.966 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+11:36:09.968 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:36:09.969 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+11:36:10.150 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:36:10.503 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:36:10.512 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:36:10.512 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:36:10.513 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+11:36:10.514 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:36:10.514 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:36:10.514 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:36:10.515 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@15d65fcf
+11:36:10.767 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:36:11.250 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:36:11.775 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+11:36:16.373 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9203"]
+11:36:16.393 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:36:16.393 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:36:16.525 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-job 192.168.116.1:9203 register finished
+11:36:17.873 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:36:17.887 [main] INFO  c.h.j.HzjJobApplication - [logStarted,61] - Started HzjJobApplication in 15.935 seconds (JVM running for 17.225)
+11:36:17.902 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job.yml, group=DEFAULT_GROUP
+11:36:17.904 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job, group=DEFAULT_GROUP
+11:36:17.905 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job-dev.yml, group=DEFAULT_GROUP
+11:36:18.016 [RMI TCP Connection(5)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:42:49.453 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+11:42:49.486 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:42:49.725 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:42:49.725 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:42:51.727 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+11:42:53.231 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+11:42:53.233 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:42:53.233 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+11:42:53.365 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:42:53.602 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:42:53.609 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:42:53.609 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:42:53.610 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+11:42:53.611 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:42:53.611 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:42:53.611 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:42:53.611 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6e239337
+11:42:53.780 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:42:54.174 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:42:54.823 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+11:42:58.476 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9203"]
+11:42:58.494 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+11:42:58.495 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+11:42:58.629 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-job 192.168.116.1:9203 register finished
+11:42:59.889 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:42:59.902 [main] INFO  c.h.j.HzjJobApplication - [logStarted,61] - Started HzjJobApplication in 11.888 seconds (JVM running for 12.543)
+11:42:59.913 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job.yml, group=DEFAULT_GROUP
+11:42:59.914 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job, group=DEFAULT_GROUP
+11:42:59.916 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job-dev.yml, group=DEFAULT_GROUP
+11:43:00.380 [RMI TCP Connection(8)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:01:39.241 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+16:01:39.361 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:01:39.923 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+16:01:39.924 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+16:01:43.386 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+16:01:46.354 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+16:01:46.356 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:01:46.357 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+16:01:46.524 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:01:46.886 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+16:01:46.897 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:01:46.897 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+16:01:46.898 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+16:01:46.899 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+16:01:46.899 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+16:01:46.900 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+16:01:46.900 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1377b1a0
+16:01:47.164 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:01:47.646 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:01:48.222 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+16:01:52.437 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9203"]
+16:01:52.456 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+16:01:52.457 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+16:01:52.585 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-job 192.168.116.1:9203 register finished
+16:01:53.898 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+16:01:53.911 [main] INFO  c.h.j.HzjJobApplication - [logStarted,61] - Started HzjJobApplication in 16.848 seconds (JVM running for 19.063)
+16:01:53.924 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job.yml, group=DEFAULT_GROUP
+16:01:53.924 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job, group=DEFAULT_GROUP
+16:01:53.926 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job-dev.yml, group=DEFAULT_GROUP
+16:01:54.429 [RMI TCP Connection(6)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:33:44.831 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+16:33:44.872 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:33:45.133 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+16:33:45.133 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+16:33:47.640 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+16:33:50.115 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+16:33:50.117 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:33:50.117 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+16:33:50.277 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:33:50.570 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+16:33:50.582 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:33:50.582 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+16:33:50.583 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+16:33:50.584 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+16:33:50.584 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+16:33:50.584 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+16:33:50.584 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3b021664
+16:33:50.835 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:33:51.300 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:33:51.843 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+16:33:56.058 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9203"]
+16:33:56.079 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+16:33:56.079 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+16:33:56.216 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-job 192.168.116.1:9203 register finished
+16:33:57.513 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+16:33:57.526 [main] INFO  c.h.j.HzjJobApplication - [logStarted,61] - Started HzjJobApplication in 14.147 seconds (JVM running for 14.95)
+16:33:57.537 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job.yml, group=DEFAULT_GROUP
+16:33:57.538 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job, group=DEFAULT_GROUP
+16:33:57.539 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job-dev.yml, group=DEFAULT_GROUP
+16:33:58.058 [RMI TCP Connection(3)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

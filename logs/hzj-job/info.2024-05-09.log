@@ -1,0 +1,59 @@
+10:22:21.447 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:22:21.494 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:22:21.916 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:22:21.916 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:22:24.746 [main] INFO  c.h.j.HzjJobApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:22:28.640 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+10:22:28.657 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:22:28.658 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.83]
+10:22:28.925 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:22:29.349 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+10:22:29.369 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:22:29.369 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+10:22:29.369 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+10:22:29.369 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:22:29.369 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:22:29.369 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+10:22:29.369 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@752973de
+10:22:29.682 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:22:30.962 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:22:31.671 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:22:36.186 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9203"]
+10:22:36.215 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:22:36.215 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:22:36.362 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP hzj-job 192.168.116.1:9203 register finished
+10:22:37.915 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:22:37.931 [main] INFO  c.h.j.HzjJobApplication - [logStarted,61] - Started HzjJobApplication in 18.288 seconds (JVM running for 19.458)
+10:22:37.946 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job.yml, group=DEFAULT_GROUP
+10:22:37.946 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job, group=DEFAULT_GROUP
+10:22:37.962 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=hzj-job-dev.yml, group=DEFAULT_GROUP
+10:22:38.378 [RMI TCP Connection(4)-192.168.91.109] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:43:51.498 [lettuce-nioEventLoop-4-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+12:43:51.614 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost/127.0.0.1:6379
+12:43:57.911 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost:6379
+12:44:04.318 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost:6379
